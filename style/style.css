@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+background-color: rgb(229, 182, 218);
+color: rgb(12, 3, 48);
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: rgb(175, 8, 89);
+}
+
+
+h1{
+    font-size: 38px;
+    margin-bottom:10px ;
+}
+
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+a{
+    color: blueviolet;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cabecario{
+    background-color: rgb(233, 221, 178);
+    color: rgb(56, 27, 41);
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+
+
+.cabecario h1{
+    color: rgb(175, 8, 89);
+    font-weight: 1000;
+}
+.etiqueta{
+margin-bottom: 5px;
+color: rgb(7, 7, 48);
+font-size: 13px;
+font-weight: bold;
+letter-spacing: 5px;
+}
+
+.subtitulo{
+    max-width: 700px;
+}
+
+
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+
+}
+
+.menu-lista li{
+    padding: 10px 14px;
+    background-color: blanchedalmond;
+    display:inline-block;
+    border: 1px solid rgb(40, 6, 99);
+    border-radius: 60%;
+}
+
+
+.menu-link{
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background-color: rgb(59, 0, 62);
+
+    
+    border: 1px solid crimson;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.secao{
+    padding: 72px 0;
+}
+
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid rgb(175, 8, 89);
+    border-radius: 5px;
+    
+}
+
+
+.card{
+    padding: 24px;
+    background-color: blanchedalmond;
+    border: 1px solid rgb(109, 17, 63);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.00);
+}
+
+.lista-tecnologias{
+    list-style: nome;
+    padding: 0;
+    margin: 0;
+
+}
+
+.lista-tecnologias li{
+    padding: 10px 14px;
+    background-color: blanchedalmond;
+    display:inline-block;
+    border: 1px solid rgb(80, 11, 101);
+    border-radius: 60%;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color:blanchedalmond;
+    text-align: center;
+}
+
+.rodape address{
+    font-size: normal;
+}
